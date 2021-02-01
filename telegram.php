@@ -5,7 +5,9 @@
  * Date: 24/01/2020
  */
 
-class telegram
+namespace jambtc\oauthtelegram;
+
+class telegram extends \yii\base\Widget
 {
     public $bot_username;
     public $token;
